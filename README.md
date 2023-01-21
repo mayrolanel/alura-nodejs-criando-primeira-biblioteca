@@ -21,3 +21,6 @@
 
 **Links**
 - [O que é o Async/await?](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
+- [ECMAScript Modules](https://nodejs.org/docs/latest-v13.x/api/esm.html#esm_enabling)
+- [Async/await no JavaScript: o que é e quando usar a programação assíncrona?](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar)
+- [Por que o JavaScript é assim? | Memes do JavaScript #01](https://www.youtube.com/watch?v=VHxoyduIt18&list=PLh2Y_pKOa4UeJOI2P-N6J8nGyV3aCuO3O&index=2)
