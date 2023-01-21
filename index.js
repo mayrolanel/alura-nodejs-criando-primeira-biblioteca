@@ -27,7 +27,7 @@ async function takeFile(path) {
         const text = await fs.promises
             .readFile(path, encoding)
 
-        console.log(chalk.green(text));
+        console.log(extractLink(text))
     } catch (error) {
         trataErro(error)
     } finally {
@@ -37,4 +37,14 @@ async function takeFile(path) {
         
 }
 
-takeFile('./arquivos/');
+function extractLink(text) {
+    const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
+
+    const captures = [...text.matchAll(regex)]
+
+    const results = captures.map(capture => ({[capture[1]]: capture[2]}))
+
+    return results;
+}
+
+takeFile('./arquivos/texto.md');
