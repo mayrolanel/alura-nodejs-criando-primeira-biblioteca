@@ -40,3 +40,14 @@
 - [Joi](https://joi.dev/)
 - [Yup](https://www.npmjs.com/package/yup)
 - [Joi Sandbox](https://joi.dev/tester/)
+
+## Na aula-04: Usando a linha de comando, você aprendeu:
+- A utilizar a interface de linha de comando e como aplicamos a lib ``process`` do Node.js para capturar e utilizar os dados informados no terminal em nosso código;
+- A organizar o código separando em arquivos as funções que lidam com entrada e saída de dados das funções que processam os links;
+- Como fazer estes diversos arquivos conversarem entre si através da exportação e importação de módulos com ``import`` e ``export``;
+- Que scripts são instruções que usamos para automatizar tarefas e como escrever nossos próprios scripts, incluí-los no arquivo de configuração ``package.json`` e utilizá-los para executar comandos no terminal.
+
+**Links**
+- [Node.js v19.5.0 documentation: Path](https://nodejs.org/api/path.html)
+- [Curso de HTTP: Entendendo a web por baixo dos panos](https://cursos.alura.com.br/course/http-fundamentos)
+- [Node.js v19.5.0 documentation: Errors](https://nodejs.org/api/errors.html)

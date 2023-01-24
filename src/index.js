@@ -27,7 +27,8 @@ async function takeFile(path) {
         const text = await fs.promises
             .readFile(path, encoding)
 
-        console.log(extractLink(text))
+        return extractLink(text);
+
     } catch (error) {
         trataErro(error)
     } finally {
@@ -41,10 +42,10 @@ function extractLink(text) {
     const regex = /\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
 
     const captures = [...text.matchAll(regex)]
-
     const results = captures.map(capture => ({[capture[1]]: capture[2]}))
 
-    return results;
+    return results.length !== 0 ? results : "Atenção! Não há links no arquivo";
 }
 
-takeFile('./arquivos/texto.md');
+
+export default takeFile
