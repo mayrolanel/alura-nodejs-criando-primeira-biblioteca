@@ -1,5 +1,13 @@
 # Node.js: criando sua primeira biblioteca
 
+# Sobre o projeto
+Node.js: criando sua primeira biblioteca é um curso da alura que busca ensinar os conceitos do nodejs onde criei um projeto que analisa arquivos ``markdown`` buscando os links nesse arquivo, usa o ``fetch`` do node para testar cada link e consegue retornar um objeto com os links válidos ou inválidos. Também aprendi: 
+- A importar e utilizar código de repositórios de código aberto
+- O que são as promessas e como trabalhar com código assíncrono em Node.js
+- Primeiras expressões regulares e veja como utilizá-las para resolver problemas
+- Criar seus próprios comandos para serem executados no terminal
+- Usar as bibliotecas mais recentes do Node.js para fazer requisições HTTP e manejar respostas
+
 ## Na aula-01: Criando um projeto em node, você aprendeu:
 - Que para criar um projeto em Node.js utilizamos o comando `npm init`;
 - Que o arquivo `package.json` é utilizado pelo Node.js para listar as dependências instaladas, além de informações sobre versão do programa, autoria e scripts;
@@ -51,3 +59,19 @@
 - [Node.js v19.5.0 documentation: Path](https://nodejs.org/api/path.html)
 - [Curso de HTTP: Entendendo a web por baixo dos panos](https://cursos.alura.com.br/course/http-fundamentos)
 - [Node.js v19.5.0 documentation: Errors](https://nodejs.org/api/errors.html)
+
+## Na aula-05: Validando links, você aprendeu:
+- Como utilizar acessar URLs com a API ``fetch`` e manipular os dados devolvidos, como o código de status HTTP;
+- Utilizar o método ``Promise.all`` para acessar de forma assíncrona um array de URLs e receber o resultado;
+- Que a API ``fetch`` é baseada no conceito de promessas em JavaScript, e nessa aula vimos como utiliza o ``async/await`` para resolver as promessas e garantir que o código seja executado de forma assíncrona, retornando os resultados.
+
+**Links**
+- [CLI Style Guide](https://devcenter.heroku.com/articles/cli-style-guide)
+- [10 design principles for delightful CLIs](https://blog.developer.atlassian.com/10-design-principles-for-delightful-clis/)
+- [HTTP: Desmistificando o protocolo da Web](https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1)
+- [npm-run-script](https://docs.npmjs.com/cli/v7/commands/npm-run-script#description)
+- [Destructuring em JavaScript](https://www.youtube.com/watch?v=f8a-qwKC5yk)
+- [Curso de Node.js: testes unitários e de integração](https://cursos.alura.com.br/course/nodejs-testes-unitarios-integracao)
+- [Lidando com erros no Node.js](https://www.alura.com.br/artigos/lidando-com-erros-node-js)
+- [npm yargs](https://www.npmjs.com/package/yargs)
+- [MDN response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
